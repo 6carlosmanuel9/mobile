@@ -35,9 +35,9 @@ p{
         box-sizing: border-box;
         position: relative;
         transition: all 0.5 ease;
-        animation: banner 20s ease infinite;
+        animation: banner1 20s ease infinite;
    }
-   @keyframes  banner{
+   @keyframes  banner1{
        0%{
         opacity: 0.5;
        }
