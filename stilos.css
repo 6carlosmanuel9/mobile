@@ -15,6 +15,24 @@ a{
 p{
     font-weight: 900;
 }
+div.image-area{
+    animation: banner 10s  alternate infinite;
+   }
+
+@keyframes banner{
+    25%{
+        
+        background-image: url(imagens\viatura_01small.jpg);
+        
+    }
+    50%{
+        background-image: url(imagens\gas.jpg);
+    }
+    75%{
+        background-image: url(imagens\viatura_01small.jpg);
+    }
+    
+ }
 
 
 
@@ -37,6 +55,7 @@ p{
         transition: all 0.5 ease;
         animation: banner1 20s ease infinite;
    }
+   
    @keyframes  banner1{
        0%{
         opacity: 0.5;
@@ -195,7 +214,7 @@ span#ho:hover::after{
      box-sizing: border-box;
      transition: all 0.5 ease;
 
-     animation: banner 10s  alternate infinite;
+     /*animation: banner 10s  alternate infinite;*/
      
  }
  /*@keyframes banner{
