@@ -184,7 +184,7 @@ span#ho:hover::after{
  div.img-area{
      height: 100vh;
      width: 100vw;
-     background-image: url();
+     background-image: url(gas.png);
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
