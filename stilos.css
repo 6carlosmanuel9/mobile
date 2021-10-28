@@ -15,24 +15,7 @@ a{
 p{
     font-weight: 900;
 }
-div.image-area{
-    animation: banner 10s  alternate infinite;
-   }
 
-@keyframes banner{
-    25%{
-        
-        background-image: url(imagens\viatura_01small.jpg);
-        
-    }
-    50%{
-        background-image: url(imagens\gas.jpg);
-    }
-    75%{
-        background-image: url(imagens\viatura_01small.jpg);
-    }
-    
- }
 
 
 
