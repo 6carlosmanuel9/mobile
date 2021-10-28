@@ -197,10 +197,10 @@ span#ho:hover::after{
      box-sizing: border-box;
      transition: all 0.5 ease;
 
-     /*animation: banner 10s  alternate infinite;*/
+     animation: banner 10s  alternate infinite;
      
  }
- /*@keyframes banner{
+ @keyframes banner{
     25%{
         
         background-image: url(imagens\viatura_01small.jpg);
@@ -213,7 +213,7 @@ span#ho:hover::after{
         background-image: url(imagens\viatura_01small.jpg);
     }
     
- }*/
+ }
  
  .one,
 .twoo,
