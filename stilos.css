@@ -203,7 +203,7 @@ span#ho:hover::after{
  @keyframes banner{
     25%{
         
-        background-image: url(viatura_01small.jpg);
+        background-image: url(..\imagens\viatura_01small.jpg);
         
     }
     50%{
